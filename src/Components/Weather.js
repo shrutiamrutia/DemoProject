@@ -123,7 +123,7 @@ const WeatherApp = () => {
                     {forecastLoading && <p>Loading forecast...</p>}
 
                     {forecast && (
-                        <div className="bottom">
+                        <div className="bottom" >
                             {forecast.forecastday.map((day) => (
                                 <div key={day.date}>
                                     <div className='feels'>

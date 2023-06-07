@@ -55,10 +55,12 @@ body {
 }
 p{
   font-size: 1.4rem;
+  text-align: center
 
 }
 h1{
   font-size: 6rem;
+  text-align: center;
 }
 .app{
   width: 100%;
